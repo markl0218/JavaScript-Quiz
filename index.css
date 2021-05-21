@@ -24,8 +24,11 @@ p {
 }
 
 li {
-  padding: 30px;
+  padding: 20px;
   font-family: sans-serif;
+  text-align: center;
+  list-style: none;
+  margin-left: -20%;
 }
 
 button {

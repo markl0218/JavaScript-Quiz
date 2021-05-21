@@ -10,18 +10,52 @@
   <body>
     <header>
       <h1>JavaScript Quiz</h1>
-
-      <div class="quiz-box">
-        <h2>1:00</h2>
-        <button>Start Quiz</button>
-        <p>Question</p>
-        <ul>
-          <li>Answer</li>
-          <li>Answer</li>
-          <li>Answer</li>
-          <li>Answer</li>
-        </ul>
-      </div>
     </header>
+
+    <div class="quiz-box">
+      <h2 id="demo">1:00</h2>
+      <button onclick="clock()">Start Quiz</button>
+      <p>Question</p>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value=""
+            aria-label="..."
+          />
+          Answer
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value=""
+            aria-label="..."
+          />
+          Answer
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value=""
+            aria-label="..."
+          />
+          Answer
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value=""
+            aria-label="..."
+          />
+          Answer
+        </li>
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
